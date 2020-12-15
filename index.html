@@ -52,10 +52,12 @@
         <li>Возможность жить и работать в любой точке мира</li>
         </ul>
       </p>
-    <p><b>Что вы предпочитаете выпить сегодня?</b></p>
-    <input name="napitok" type="radio" value="pivo">  Пиво<br>           <!-- Радиоточка ПИВО с таким же названием-->
-    <input name="napitok" type="radio" value="vino">  Вино<br>           <!-- Радиоточка Вино с таким же названием-->
-    <input name="napitok" type="radio" value="vodka" checked>  Водка</p> <!-- Отмеченная радиоточка Водка с таким же названием-->
-    <p><input type="submit" value="Налить"></p>                          <!-- Подтверждающая кнопка "НАЛИТЬ"-->
+    <fieldset> <legend><b>Что вы предпочитаете выпить сегодня?</b></legend>
+        <label><input name="napitok" type="radio" value="pivo">  Пиво</label><br>   <!-- Радиоточка ПИВО с таким же названием-->
+        <label><input name="napitok" type="radio" value="vino">  Вино</label><br>   <!-- Радиоточка Вино с таким же названием-->
+        <label><input name="napitok" type="radio" value="vodka">  Водка</label><br> <!-- Отмеченная радиоточка Водка с таким же названием-->
+        <label><input type="text" name="napitok" placeholder="Свой вариант"></label>
+        <p><input type="submit" value="Налить"></p>                                 <!-- Подтверждающая кнопка "НАЛИТЬ"-->
+    </fieldset>
 </body>
 </html>
