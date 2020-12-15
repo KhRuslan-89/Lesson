@@ -1,0 +1,37 @@
+/*
+body {    background: bisque;}
+.title{ font-weight: bold}
+.font-styles{font-style: italic}
+!*div{display: inline;
+    background: red}*!
+.wrapper-bottom{
+    border: 1px solid green;
+    display: inline-block}
+.button{
+    background: ;
+    font-weight: bold;
+    display: inline-block;
+
+    !*size*!
+    width: 200px;
+    height: 50px;
+
+    !*position*!
+    !*position: absolute;*! !*static - по умолчанию браузера, fixed - зафиксировано*!
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 20px;
+    }*/
+/*
+.span-1{width: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    !*padding-right: 20px;*!
+}
+.span-2{width: 150px;
+    display: inline-block;
+
+}
+.border{border: 1px solid red;
+}*/
