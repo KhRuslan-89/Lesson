@@ -1,3 +1,50 @@
+body {
+    background: burlywood;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+}
+#container {
+    background: #FFFFFF;
+    margin: 30px auto;
+    width: 900px;
+    height: 1200px;
+}
+#header {
+    background: red;
+    height: 100px;
+    width: 900px;
+}
+#sidebar-left {
+    background: gray;
+    float: left;
+    height: 1000px;
+    width: 150px;
+}
+#content {
+    background: #d2d0d2;
+    float: right;
+    height: 1000px;
+    width: 600px;
+}
+#sidebar-right {
+    background: gray;
+    float: right;
+    height: 1000px;
+    width: 150px;
+}
+#clear {
+    clear:both;
+}
+#footer {
+    background: #343434;
+    height: 100px;
+    width: 900px;
+}
+h1, h2 {
+    font-family: 'Georgia', sans-serif;
+    color: indigo;
+}
 /*
 body {    background: bisque;}
 .title{ font-weight: bold}
